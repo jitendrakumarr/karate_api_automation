@@ -9,3 +9,6 @@
 .idea/modules.xml
 .idea/vcs.xml
 karate.iml
+/target
+target/cucumber-html-reports/embeddings/
+target/generated-test-sources/
