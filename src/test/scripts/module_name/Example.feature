@@ -5,8 +5,8 @@ Feature: To verify shopping cart api
         * def endpoints = read('file:'+endpoints_path+'endpoints.json')
         * def request_data =  request_data_path+'module_name'
         * def response_schema = response_schema_path+'module_name/'
-        * def headers_data = read('file:'+request_headers_path+'module_name/headers.json')
-        * headers headers_data
+        * def headers_data = read('file:'+request_headers_path+'headers.json')
+        * headers headers_data.modudleName1
         * def Utils = Java.type('framework.Utils')
         And url base_url
 

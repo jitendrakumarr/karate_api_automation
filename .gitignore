@@ -12,3 +12,5 @@ karate.iml
 /target
 target/cucumber-html-reports/embeddings/
 target/generated-test-sources/
+target/cucumber-html-reports/
+target/cucumber-html-reports/css/
