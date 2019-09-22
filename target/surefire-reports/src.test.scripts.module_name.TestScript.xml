@@ -1,0 +1,18 @@
+<testsuite failures="1" name="src/test/scripts/module_name/TestScript.feature" skipped="0" tests="1" time="1.451845">
+  <testcase classname="src.test.scripts.module_name.TestScript" name="1" time="1.451845">
+    <failure message="TestScript.feature:16 - assert evaluated to false: responseStatus == 200">* def endpoints = read('file:src/test/resources/endpoints/endpoints.json') . passed
+* def request_data =  request_data_path+'module_name' ..................... passed
+* def response_schema = response_schema_path+'/module_name/' .............. passed
+* def headers_data = read('file:'+request_headers_path+'module_name/headers.json') . passed
+* headers headers_data .................................................... passed
+And url base_url .......................................................... passed
+Given path endpoints.modudleName1.pathName1 ............................... passed
+And print any_variable_name ............................................... passed
+When method GET ........................................................... passed
+Then assert responseStatus == 200 ......................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: TestScript.feature:16 - assert evaluated to false: responseStatus == 200
+	at ✽.Then assert responseStatus == 200 (TestScript.feature:16)</failure>
+  </testcase>
+</testsuite>

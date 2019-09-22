@@ -1,0 +1,14 @@
+{
+  "modudleName1": {
+    "pathName1": "/shoppingCarts1",
+    "pathName2": "/shoppingCarts/{cart_id}/cartItems/{cart_item_id}"
+  },
+  "modudleName2": {
+    "pathName1": "/shoppingCarts2",
+    "pathName2": "/shoppingCarts/{cart_id}/cartItems/{cart_item_id}"
+  },
+  "modudleName3": {
+    "pathName1": "/shoppingCarts3",
+    "pathName2": "/shoppingCarts/{cart_id}/cartItems/{cart_item_id}"
+  }
+}

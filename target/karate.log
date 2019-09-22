@@ -1,0 +1,418 @@
+21:43:22.532 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:43:22.561 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:43:22.568 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:43:22.684 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+21:45:33.295 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:45:33.320 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:45:33.380 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+21:46:55.493 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:46:55.577 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:46:55.636 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+21:48:15.194 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:48:15.307 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+21:49:33.632 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:49:34.191 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://www.google.com/shoppingCarts1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+21:49:34.544 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 351.31
+1 < 404
+1 < Alt-Svc: quic=":443"; ma=2592000; v="46,43,39"
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:19:34 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+21:49:34.573 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+21:49:34.581 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - assertion failed: assert evaluated to false: responseStatus == 200
+21:49:34.613 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+21:51:26.515 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:51:26.659 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+21:58:58.339 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:58:58.473 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+21:59:33.206 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:59:33.293 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:01:11.165 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:01:11.282 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:01:50.611 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:01:50.700 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:02:08.048 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:02:08.138 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:04:36.901 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:04:37.053 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:05:02.011 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.client.ClientProtocolException, http call failed after 0 milliseconds for URL: www.google.com/shoppingCarts1
+22:05:02.013 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.client.ClientProtocolException
+22:05:02.046 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:05:55.800 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.client.ClientProtocolException, http call failed after 0 milliseconds for URL: www.google.com/shoppingCarts1
+22:05:55.803 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.client.ClientProtocolException
+22:05:55.857 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:06:25.340 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:06:25.947 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 587.70
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:36:26 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:06:25.973 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:06:25.980 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - assertion failed: assert evaluated to false: responseStatus == 200
+22:06:26.012 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
+22:06:58.680 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:07:05.124 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 6439.97
+1 < 404
+1 < Alt-Svc: quic=":443"; ma=2592000; v="46,43,39"
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:37:04 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:07:05.146 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:07:05.261 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:08:16.124 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:08:16.551 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 423.21
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:38:16 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:08:16.567 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:08:16.642 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:09:00.851 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:09:01.165 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:09:32.477 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 31308 milliseconds for URL: http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+22:09:32.477 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+java.net.SocketTimeoutException: Read timed out
+22:09:32.486 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:09:32.504 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:09:32.546 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:10:31.102 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:10:31.636 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:10:35.737 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4096.08
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:40:33 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:10:35.752 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:10:35.769 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:10:35.791 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:10:35.838 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:11:59.536 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:11:59.579 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print]
+22:11:59.845 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:12:02.265 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2418.01
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:42:02 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:12:02.278 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:12:02.290 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:12:02.294 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print]
+22:12:02.305 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:12:02.308 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print]
+22:12:02.350 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:13:31.808 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print]
+22:13:32.196 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:13:37.407 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 5206.87
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:43:36 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:13:37.422 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:13:37.439 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print]
+22:13:37.454 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print]
+22:13:37.508 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:14:38.965 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print]
+22:14:39.319 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:14:50.871 [ForkJoinPool-1-worker-1] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {}->http://www.google.com:80: Connection reset
+22:14:50.872 [ForkJoinPool-1-worker-1] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {}->http://www.google.com:80
+22:14:50.873 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: www.google.com
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:15:05.852 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 14977.91
+2 < 404
+2 < Content-Length: 1575
+2 < Content-Type: text/html; charset=UTF-8
+2 < Date: Sun, 22 Sep 2019 16:44:51 GMT
+2 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:15:05.866 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:15:05.954 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:15:37.711 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] src/test/resources/request_data/module_name
+22:15:37.977 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:15:38.040 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 59.87
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:45:38 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:15:38.054 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:15:38.130 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:15:55.216 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] src/test/resources/response_schema//module_name/
+22:15:55.485 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:15:55.553 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 63.30
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:45:55 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:15:55.565 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:15:55.639 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:16:20.573 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+}
+
+22:16:20.832 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1?channels.id=auto_channel&externalId=auto_externalId
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:16:20.971 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 134.98
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:46:21 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:16:20.983 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:16:21.085 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 2: src/test/scripts/module_name/Example.feature
+22:17:47.944 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] any_string_value_that_can_be_Accessed_in_feature_file
+22:17:48.286 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://www.google.com/shoppingCarts1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.google.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+22:17:49.357 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1069.35
+1 < 404
+1 < Content-Length: 1575
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 22 Sep 2019 16:47:49 GMT
+1 < Referrer-Policy: no-referrer
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+22:17:49.372 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+22:17:49.377 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - assertion failed: assert evaluated to false: responseStatus == 200
+22:17:49.418 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: src/test/scripts/module_name/TestScript.feature
