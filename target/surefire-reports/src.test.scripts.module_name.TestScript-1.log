@@ -1,16 +1,24 @@
-22:17:47.947 [print] any_string_value_that_can_be_Accessed_in_feature_file
-22:17:48.286 request:
+23:04:20.243 [print] {
+  "Content-Type": "application/json",
+  "Country": "IN",
+  "content-language": "en_US"
+}
+
+23:04:20.594 request:
 1 > GET http://www.google.com/shoppingCarts1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Country: IN
 1 > Host: www.google.com
 1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+1 > content-language: en_US
 
-22:17:49.357 response time in milliseconds: 1069.35
+23:04:20.676 response time in milliseconds: 80.01
 1 < 404
 1 < Content-Length: 1575
 1 < Content-Type: text/html; charset=UTF-8
-1 < Date: Sun, 22 Sep 2019 16:47:49 GMT
+1 < Date: Sun, 22 Sep 2019 17:34:20 GMT
 1 < Referrer-Policy: no-referrer
 <!DOCTYPE html>
 <html lang=en>
@@ -25,6 +33,5 @@
   <p>The requested URL <code>/shoppingCarts1</code> was not found on this server.  <ins>That’s all we know.</ins>
 
 
-22:17:49.372 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
-22:17:49.378 assertion failed: assert evaluated to false: responseStatus == 200
-1:49:34.581 assertion failed: assert evaluated to false: responseStatus == 200
+23:04:20.687 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".
+23:04:20.692 assertion failed: assert evaluated to false: responseStatus == 200

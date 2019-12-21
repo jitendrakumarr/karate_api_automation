@@ -49,28 +49,28 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@eCom",  "@hal",  "@module",  "@shoppingCartHal", ] ,
+        labels:  [ "@module", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 26.92,  26.92,  75.00,  26.92, ]             },
+                data:  [ 75.00, ]             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 11.54,  11.54,  25.00,  11.54, ]             },
+                data:  [ 25.00, ]             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 61.54,  61.54,  0.00,  61.54, ]             },
+                data:  [ 0.00, ]             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00,  0.00,  0.00,  0.00, ]             },
+                data:  [ 0.00, ]             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00,  0.00,  0.00,  0.00, ]             }
+                data:  [ 0.00, ]             }
         ]
     };
 
@@ -129,7 +129,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>API Test</td>
-            <td>22 Sep 2019, 22:17</td>
+            <td>22 Sep 2019, 23:04</td>
     </tr>
   </tbody>
 </table>
@@ -191,40 +191,6 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-tag_eCom.html">@eCom</a></td>
-        
-        <td      class="passed"    >7</td>
-        <td      class="failed"    >3</td>
-        <td     class="skipped"   >16</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">26</td>
-
-        <td >0</td>
-        <td  class="failed"    >3</td>
-        <td class="total">3</td>
-
-        <td class="duration" data-value="446745608">446ms</td>
-        <td class="failed">Failed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-tag_hal.html">@hal</a></td>
-        
-        <td      class="passed"    >7</td>
-        <td      class="failed"    >3</td>
-        <td     class="skipped"   >16</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">26</td>
-
-        <td >0</td>
-        <td  class="failed"    >3</td>
-        <td class="total">3</td>
-
-        <td class="duration" data-value="446745608">446ms</td>
-        <td class="failed">Failed</td>
-      </tr>
-          <tr>
         <td class="tagname"><a href="report-tag_module.html">@module</a></td>
         
         <td      class="passed"    >3</td>
@@ -238,50 +204,33 @@ $(document).ready(function() {
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="1438463018">1s 438ms</td>
-        <td class="failed">Failed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-tag_shoppingCartHal.html">@shoppingCartHal</a></td>
-        
-        <td      class="passed"    >7</td>
-        <td      class="failed"    >3</td>
-        <td     class="skipped"   >16</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">26</td>
-
-        <td >0</td>
-        <td  class="failed"    >3</td>
-        <td class="total">3</td>
-
-        <td class="duration" data-value="446745608">446ms</td>
+        <td class="duration" data-value="458211854">458ms</td>
         <td class="failed">Failed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
+      <td>1</td>
+            <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>4</td>
-            <td>24</td>
-      <td>10</td>
-      <td>48</td>
-      <td>0</td>
-      <td>0</td>
-      <td>82</td>
 
       <td>0</td>
-      <td>10</td>
-      <td>10</td>
+      <td>1</td>
+      <td>1</td>
 
-      <td class="duration">2s 778ms</td>
+      <td class="duration">458ms</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-            <td>29.27%</td>
-      <td>12.20%</td>
-      <td>58.54%</td>
+            <td>75.00%</td>
+      <td>25.00%</td>
+      <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
