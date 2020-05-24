@@ -8,6 +8,8 @@
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
+.vscode/
+.idea/
 karate.iml
 /target
 target/cucumber-html-reports/embeddings/
