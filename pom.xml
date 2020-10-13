@@ -20,7 +20,7 @@
         <commons-io.version>2.5</commons-io.version>
         <net.masterthought.cucumber-reporting.version>3.8.0</net.masterthought.cucumber-reporting.version>
         <org.json.json.version>20180130</org.json.json.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <com.github.mifmif.version>1.0.2</com.github.mifmif.version>
         <org.glassfish.gmbal.version>4.0.0-b00</org.glassfish.gmbal.version>
         <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
