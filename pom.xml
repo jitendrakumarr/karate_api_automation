@@ -16,7 +16,7 @@
         <com.intuit.karate.karate-apache.version>0.9.4</com.intuit.karate.karate-apache.version>
         <com.intuit.karate.karate-junit4.version>0.9.4</com.intuit.karate.karate-junit4.version>
         <org.mongodb.mongo-java-driver.version>3.10.0</org.mongodb.mongo-java-driver.version>
-        <ch.qos.logback.logback-classic.version>1.0.13</ch.qos.logback.logback-classic.version>
+        <ch.qos.logback.logback-classic.version>1.2.0</ch.qos.logback.logback-classic.version>
         <commons-io.version>2.7</commons-io.version>
         <net.masterthought.cucumber-reporting.version>3.8.0</net.masterthought.cucumber-reporting.version>
         <org.json.json.version>20180130</org.json.json.version>
