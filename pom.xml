@@ -24,7 +24,7 @@
         <com.github.mifmif.version>1.0.2</com.github.mifmif.version>
         <org.glassfish.gmbal.version>4.0.0-b00</org.glassfish.gmbal.version>
         <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
-        <org.yaml.snakeyaml.version>1.23</org.yaml.snakeyaml.version>
+        <org.yaml.snakeyaml.version>1.32</org.yaml.snakeyaml.version>
         <info.cukes.cucumber-java.version>1.2.4</info.cukes.cucumber-java.version>
 
     </properties>
